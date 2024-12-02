@@ -44,4 +44,4 @@ def deleteFavourite(request):
 
 @login_required
 def exit(request):
-    return render(request, 'index.html')
+    return redirect('index-page')
